@@ -42,7 +42,7 @@ During installation, these are the standard steps to consider
 	```bash
 	service ssh restart
 	```
-- Add IP to staging inventory file on `jump.drsam.cc`
+- Add IP to staging inventory file under `[unstaged]` on `jump.drsam.cc`
 	```bash
 	cd ~/boilerplate/ansible/staging
 	nano inventory
