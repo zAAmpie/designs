@@ -14,7 +14,7 @@ During installation, these are the standard steps to consider
 
 ## After install
 
-- Log in as root
+- Log in as `root`
 - Open interface file
 	```bash
 	nano /etc/network/interfaces
@@ -44,11 +44,12 @@ During installation, these are the standard steps to consider
 	```
 - Add IP to staging inventory file on `jump.drsam.cc`
 	```bash
-	cd ~/boilerplate/ansible/staging/
+	cd ~/boilerplate/ansible/staging
 	nano inventory
 	```
 - Stage the host for Ansible
 	```bash
+	cd ~/boilerplate/ansible/staging
 	ansible-playbook minimal_setup.yaml
 	```
 - As IP to main inventory file under `[staging]` on `jump.drsam.cc`
@@ -58,6 +59,7 @@ During installation, these are the standard steps to consider
 	```
 - Set up Debian using Ansible playbook
 	```bash
+	cd ~/boilerplate/ansible
 	ansible-playbook minimal_debian.yaml
 	```
 
