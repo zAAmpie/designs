@@ -1,5 +1,8 @@
 # VLANs
 
+VLANs should be assigned by access requirements. So devices with similar needs for routing, isolation etc. should be on separate VLANs.
+This includes internet access, via VPN, no internet access, no access or limited access to any other VLANs etc.
+
 ## Allocations per network
 
 We're achieving network isolation with multiple VLANs. Each VLAN has its own allocated /16 IP range, which is routed via `fwl01.mgmt.drsam.cc`.

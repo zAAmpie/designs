@@ -31,6 +31,7 @@ Each docker container has an allocated port the host listens on. Here are the al
 - 10024 - sonarr
 - 10025 - radarr
 - 10026 - wordpress (Sam's Brain Dump)
+- 10027 - plex
 
 Where multiple instances of a container lives on the same docker instance, add `1000`, `2000` etc.
 
