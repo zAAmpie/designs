@@ -41,4 +41,5 @@ These are special ports listening on the public IP
 
 - 80 - npm - docker.dmz.drsam.cc:80
 - 443 - npm - docker.dmz.drsam.cc:443
+- 27333 - vrising - win.dmz.drsam.cc:27333
 - 32400 - plex - docker.dmz.drsam.cc:32400
